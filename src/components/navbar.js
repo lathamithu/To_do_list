@@ -1,6 +1,6 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 
-import ReactDom from 'react-dom';
 function Navbar()
 {
     return(
@@ -24,7 +24,8 @@ function Navbar()
                     <a href="#">All lists</a>
                     <a href="#">Personal</a>
                     <a href="#">Work</a>
-                    <a href="#" onClick={()=>{}}>New list</a>
+                    <a href="#">Grocery list</a>
+                    <a href="#">New list</a>
                 </div>
                 
             </>
